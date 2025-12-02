@@ -8,4 +8,20 @@ dependencies = [
     "streamlit>=1.37",
     "python-dotenv",
 
+"requests",
+    "pillow",
+    "certifi",
+
+    "langsmith",
+    "langchain-community",
+    "langchain-core",
+    "langchain-openai",
+    "langchain-pinecone",
+    "langchain-tavily",
+    "langchain-huggingface",
+    "langchain-chroma",
+    "langchain-classic",
+    "langchain-groq",
+
+    "rich",
 ]
