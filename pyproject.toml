@@ -23,5 +23,7 @@ dependencies = [
     "langchain-classic",
     "langchain-groq",
 
+    "sentence-transformers",
+
     "rich",
 ]
