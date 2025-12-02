@@ -1,5 +1,7 @@
 from dotenv import load_dotenv
 
+
+
 load_dotenv()
 from typing import Set
 
@@ -76,7 +78,7 @@ with st.sidebar:
     st.title("User Profile")
 
     # You can replace these with actual user data
-    user_name = "John Doe"
+    user_name = "Adarsh Raj"
     user_email = "john.doe@example.com"
 
     profile_pic = get_profile_picture(user_email)
@@ -84,7 +86,7 @@ with st.sidebar:
     st.write(f"**Name:** {user_name}")
     st.write(f"**Email:** {user_email}")
 
-st.header("LangChain🦜🔗 Udemy Course- Helper Bot")
+st.header("Furtwangen University - Helper Bot")
 
 # Initialize session state
 if "chat_answers_history" not in st.session_state:
